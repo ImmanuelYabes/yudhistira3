@@ -1,0 +1,37 @@
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  height: 300px;
+  width: auto; /* Adjust the width as needed */
+  max-width: 500px; /* Add a max-width to prevent it from stretching too much */
+  cursor: pointer;
+  border-radius: 5px;
+  margin: auto; /* Center the form horizontally */
+}
+
+p {
+  margin-bottom: 10px; /* Adds 20 pixels of margin below each paragraph */
+}
+
+.form-bok {
+  display: flex;
+  border: 2px dashed #ddd;
+}
+
+.uploaded-row {
+  margin: 10px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 20px;
+  border-radius: 5px;
+  background-color: #2a3447;
+}
+
+.upload-content {
+  display: flex;
+  align-items: center;
+}
